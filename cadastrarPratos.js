@@ -29,4 +29,6 @@ await Prato.create({
     disponivel: true
 })
 
+console.log("Cardápio cadastrado!")
+
 await mongoose.disconnect()
