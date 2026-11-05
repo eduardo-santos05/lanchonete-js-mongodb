@@ -1,0 +1,25 @@
+{
+  "name": "lanchonete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo-santos05/lanchonete-js-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/eduardo-santos05/lanchonete-js-mongodb/issues"
+  },
+  "homepage": "https://github.com/eduardo-santos05/lanchonete-js-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "mongoose": "^9.12.0"
+  }
+}
