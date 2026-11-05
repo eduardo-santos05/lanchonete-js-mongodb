@@ -9,7 +9,11 @@ let posicao = 0
 
 pratos.forEach((prato) => {
     console.log(`[${posicao++}] ${prato._id}`)
-    console.log(`   ${prato.nome} (${prato.categoria}): R$ ${prato.preco}`)
+    if (!prato.disponivel) {
+        console.log(" - Indisponível")
+    } else {
+        console.log(`   ${prato.nome} (${prato.categoria}): R$ ${prato.preco}`)
+    }
 })
 
 await mongoose.disconnect()
