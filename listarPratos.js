@@ -10,9 +10,9 @@ let posicao = 0
 pratos.forEach((prato) => {
     console.log(`[${posicao++}] ${prato._id}`)
     if (!prato.disponivel) {
-        console.log(" - Indisponível")
+        console.log(`    ${prato.nome} (${prato.categoria}): R$ ${prato.preco} - Indisponível`)
     } else {
-        console.log(`   ${prato.nome} (${prato.categoria}): R$ ${prato.preco}`)
+        console.log(`    ${prato.nome} (${prato.categoria}): R$ ${prato.preco}`)
     }
 })
 
