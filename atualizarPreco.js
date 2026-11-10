@@ -10,7 +10,7 @@ let prato = await Prato.findByIdAndUpdate(id, { preco: novoPreco })
 if (prato === null) {
     console.log("Prato não encontrado")
 } else {
-    console.log(`${prato.nome}: novo preço R$ ${prato.preco}`)
+    console.log(`${prato.nome}: novo preço R$ ${novoPreco}`)
 }
 
 await mongoose.disconnect()
